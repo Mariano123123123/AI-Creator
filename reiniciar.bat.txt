@@ -1,0 +1,7 @@
+cd C:\Users\ASUS\Desktop\ImageGenerator
+taskkill /f /im node.exe >nul 2>&1
+rd /s /q node_modules 2>nul
+del package-lock.json 2>nul
+npm install --legacy-peer-deps
+npm run build
+npm start
