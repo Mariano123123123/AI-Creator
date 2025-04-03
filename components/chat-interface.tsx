@@ -29,7 +29,7 @@ export function ChatInterface() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: "Hello! How can I assist you today?",
+      content: "Hello! How can I assist ydou today?",
       sender: "ai",
       timestamp: new Date(),
     },
